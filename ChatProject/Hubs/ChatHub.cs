@@ -12,13 +12,14 @@ namespace SignalRChat.Hubs
     public class ChatHub : Hub
     {
 
-        string loginUrl = "https://ngchatgroupsapi.azurewebsites.net/api/user/UserLogin?user=";
-        string getUserGroupsUrl = "https://ngchatgroupsapi.azurewebsites.net/api/user/GetUserGroups?user=";
-        string joinGroupUrl = "https://ngchatgroupsapi.azurewebsites.net/api/user/JoinGroup";
-        string leavGroupUrl = "https://ngchatgroupsapi.azurewebsites.net/api/user/LeaveGroup";
-        string getGroupMessagesUrl = "https://ngchatmessagesapi.azurewebsites.net/api/Message/GetGroupMessages?g=";
-        string sendMessageToGroupUrl = "https://ngchatmessagesapi.azurewebsites.net/api/Message/SendToGroup";
-        string createGroupUrl = "https://ngchatgroupsapi.azurewebsites.net/api/group/CreateGroup";
+        
+        string loginUrl = "https://nextgamesgroupsapi.azurewebsites.net/api/user/UserLogin?user=";
+        string getUserGroupsUrl = "https://nextgamesgroupsapi.azurewebsites.net/api/user/GetUserGroups?user=";
+        string joinGroupUrl = "https://nextgamesgroupsapi.azurewebsites.net/api/user/JoinGroup";
+        string leavGroupUrl = "https://nextgamesgroupsapi.azurewebsites.net/api/user/LeaveGroup";
+        string getGroupMessagesUrl = "https://nextgamesmessagesapi.azurewebsites.net/api/Message/GetGroupMessages?g=";
+        string sendMessageToGroupUrl = "https://nextgamesmessagesapi.azurewebsites.net/api/Message/SendToGroup";
+        string createGroupUrl = "https://nextgamesgroupsapi.azurewebsites.net/api/group/CreateGroup";
         public async Task SendMessageToGroup(string groupName, string message)
         {
            

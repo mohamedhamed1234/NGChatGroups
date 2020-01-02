@@ -1,0 +1,8 @@
+D:\MyWork\ME\NextGames\DomainLibrary\bin\Release\netcoreapp3.0\DomainLibrary.deps.json
+D:\MyWork\ME\NextGames\DomainLibrary\bin\Release\netcoreapp3.0\DomainLibrary.dll
+D:\MyWork\ME\NextGames\DomainLibrary\bin\Release\netcoreapp3.0\DomainLibrary.pdb
+D:\MyWork\ME\NextGames\DomainLibrary\obj\Release\netcoreapp3.0\DomainLibrary.AssemblyInfoInputs.cache
+D:\MyWork\ME\NextGames\DomainLibrary\obj\Release\netcoreapp3.0\DomainLibrary.AssemblyInfo.cs
+D:\MyWork\ME\NextGames\DomainLibrary\obj\Release\netcoreapp3.0\DomainLibrary.dll
+D:\MyWork\ME\NextGames\DomainLibrary\obj\Release\netcoreapp3.0\DomainLibrary.pdb
+D:\MyWork\ME\NextGames\DomainLibrary\obj\Release\netcoreapp3.0\DomainLibrary.csprojAssemblyReference.cache
