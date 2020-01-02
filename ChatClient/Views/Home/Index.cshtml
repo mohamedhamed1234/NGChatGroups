@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<script>
+
+
+    function goto() {
+         var url = '@Url.Action("Privacy", "Home", new {name = "NAME"})';
+  url = url.replace("NAME", $("#userName").val());
+
+ //just for debugging
+  window.location.href = url;
+
+    }
+
+</script>
+
+<div class="text-center">
+    <h2 class="display-4">Welcome - Next Games</h2>
+
+</div>
+
+
+<div class="loginWrapper">
+    <div class="loginBox">
+        <h1 class=" hideText"><a href="#">Next Games</a></h1>
+        <div class="fieldsWrapper">
+            <label class="inputlable">Username</label>
+            <input type="text" class="inputText" placeholder="Username" id="userName">
+
+            @*<a class="sendBtn" asp-area="" asp-controller="Home" asp-action="Privacy"><span data-hover="Login">&nbsp;&nbsp;&nbsp; Login</span></a>*@
+
+            <a id="sendBtn" class="sendBtn" href="#" onclick="goto();"><span data-hover="Login">&nbsp;&nbsp;&nbsp; Login</span></a>
+        </div>
+
+        <div class="buttonsWrapper">
+            <nav class="cl-effect-2">
+                @*<a class="green" href="#"><span data-hover="Login">Login</span></a>*@
+            </nav>
+        </div>
+        @*<div class="clearfix"></div>*@
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+    <link rel="stylesheet" media="all" href="~/ChatStyle/css/bootstrap.min.css">
+    <link rel="stylesheet" media="all" href="~/ChatStyle/css/jquery-ui.min.css">
+    <link rel="stylesheet" media="all" href="~/ChatStyle/css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" media="all" href="~/ChatStyle/css/icheck.css">
+    <link rel="stylesheet" media="all" href="~/ChatStyle/css/dataTables.jqueryui.min.css">
+    <link rel="stylesheet" media="all" href="~/ChatStyle/css/nanoscroller.css">
+    <link rel="stylesheet" media="all" href="~/ChatStyle/css/cs-select.css">
+    <link rel="stylesheet" media="all" href="~/ChatStyle/css/cs-skin-slide.css">
+    <link rel="stylesheet" media="all" href="~/ChatStyle/css/jquery.dad.css">
+    <link rel="stylesheet" media="all" href="~/ChatStyle/css/main.css">
+
+    <script type="text/javascript" src="~/ChatStyle/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/modernizr.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/icheck.min.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/dataTables.jqueryui.min.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/jquery.nanoscroller.min.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/jquery.nestable.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/classie.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/selectFx.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/jquery.dad.js"></script>
+    <script type="text/javascript" src="~/ChatStyle/js/ui.js"></script>
+
+    <script type="text/javascript" src="~/lib/signalr/signalr.js"></script>
+    <script type="text/javascript" src="~/js/chat.js"></script>
+    <!--[if lt IE 9]><script src="../js/html5shiv.js"></script><![endif]-->
+</head>
+
+
+@*<script src="~/lib/signalr/signalr.js"></script>
+    <script src="~/js/chat.js"></script>*@
+
+
+
