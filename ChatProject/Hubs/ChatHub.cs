@@ -222,7 +222,7 @@ namespace SignalRChat.Hubs
                 }
 
 
-                
+                await Clients.Caller.SendAsync("HideSpinner");
 
             }
             catch (Exception ex)

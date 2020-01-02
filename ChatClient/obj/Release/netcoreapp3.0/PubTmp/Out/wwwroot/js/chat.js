@@ -87,6 +87,14 @@ connection.on("PopulateMyGroupList", function (groupName) {
 
 });
 
+
+connection.on("HideSpinner", function () {
+
+    $('.spinnerWrapper').fadeOut('slow');
+    
+
+});
+
 // We need an async function in order to use await, but we want this code to run immediately,
 // so we use an "immediately-executed async function"
 (async () => {
