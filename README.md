@@ -4,7 +4,7 @@ Next Games
 
 Chat Groups System Design
 
-[Document subtitle]
+
 
 Mohamed Hamed
 1-5-2020
