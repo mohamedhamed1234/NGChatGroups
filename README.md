@@ -106,5 +106,8 @@ Extension: The solution is now ready to run on only one game, although it is des
 Scale-out: The solution can be easily scaled-out and new features can be added because it designed with loosely coupled components, new features can be added easily without any affect to other components and all app services can be scaled-out to support as many users and request as they join.
 
 
+Configurations and Assumptions 
+
+Groups members are configured to be only max 20 members and no more members are allowed to join this group.
 
   
