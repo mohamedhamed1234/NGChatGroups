@@ -95,6 +95,13 @@ connection.on("HideSpinner", function () {
 
 });
 
+connection.on("GroupFull", function () {
+
+    alert("The Group is full right now!");
+
+
+});
+
 // We need an async function in order to use await, but we want this code to run immediately,
 // so we use an "immediately-executed async function"
 (async () => {
